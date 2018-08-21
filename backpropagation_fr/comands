@@ -1,0 +1,10 @@
+Serial:
+------
+g++ -std=c++11 -g -Wall -fopenmp -o a.out serial.cpp -lm
+./a.out
+
+Parallel:
+---------
+g++ -std=c++11 -g -Wall -fopenmp -o a.out parallel.cpp -lm
+./a.out
+
